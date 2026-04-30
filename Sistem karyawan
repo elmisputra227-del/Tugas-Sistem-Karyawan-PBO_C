@@ -1,6 +1,5 @@
 //Console.WriteLine("Hello Word");
 using System;
-using System.Collections.Generic;
 
 // ============================================================
 // KELAS BASE: Karyawan
