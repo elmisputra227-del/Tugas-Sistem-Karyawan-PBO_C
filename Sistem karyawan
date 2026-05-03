@@ -210,9 +210,9 @@ class Perusahaan
 
     public void DaftarKaryawan()
     {
-        Console.WriteLine("\n========================================");
-        Console.WriteLine("       DAFTAR SELURUH KARYAWAN");
-        Console.WriteLine("========================================");
+        Console.WriteLine("\n");
+        Console.WriteLine("DAFTAR SELURUH KARYAWAN");
+        Console.WriteLine("\n");
         foreach (var k in daftarKaryawan)
         {
             k.InfoKaryawan();
