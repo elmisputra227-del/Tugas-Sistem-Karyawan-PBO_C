@@ -256,7 +256,7 @@ class Program
         manager.Kerja();
         freelancer.Kerja();
         
-        // SOAL 2: Jalankan method Memimpin() pada Manager
+        // SOAL 2: Menjalankan method Memimpin() pada Manager
         
         Console.WriteLine("\n=== SOAL 2: Memimpin() pada Manager ===");
         manager.Memimpin();
@@ -268,12 +268,12 @@ class Program
         Console.WriteLine($"Akses langsung — Tunjangan: Rp {manager.Tunjangan}");
         Console.WriteLine($"Gaji Total   : Rp {manager.HitungGajiTotal()}");
         
-        // SOAL 4: Jalankan method Belajar() pada Magang
+        // SOAL 4: Menjalankan method Belajar() pada Magang
         
         Console.WriteLine("\n=== SOAL 4: Belajar() pada Magang ===");
         magang.Belajar();
         
-        // SOAL 5: Polymorphism — variabel Karyawan diisi objek Staff
+        // SOAL 5: Polymorphism (variabel Karyawan diisi objek Staff)
         
         Console.WriteLine("\n=== SOAL 5: Polymorphism — Karyawan berisi Staff ===");
         Karyawan karyawanPolymorphism = new Staff("Julian Alvarez", 7000000, 1500000);
@@ -285,7 +285,7 @@ class Program
         List<Karyawan> semuaKaryawan = new List<Karyawan> { manager, staff, magang, freelancer };
         foreach (var k in semuaKaryawan)
         {
-            k.Kerja(); // Memanggil versi Kerja() sesuai tipe objek masing-masing
+            k.Kerja(); 
         }
 
         
